@@ -75,11 +75,8 @@ ul{
 }
 .riga-azzurra{
     background-color: lightblue;
-    vertical-align: unset;
-    
-    
+    vertical-align: unset;   
 }
-
 .riga-azzurra .colonna1{
    position: relative;
    bottom: 27px;
@@ -96,4 +93,47 @@ ul{
     position: relative;
     bottom: 27px;
  }
+#speciale2{
+    position: relative;
+    top: 20px;
+}
 
+
+footer p {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.f1{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+.f2{
+    background-image: url(../img/graph.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 65px;
+}
+.f1 span{
+    font-size: 23px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.f2 span{
+    font-size: 23px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
