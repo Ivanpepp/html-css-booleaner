@@ -5,9 +5,95 @@ header{
     background-size: 500px;
     position: relative;
 }
+
 .logo{
     width: 250px;
     position: absolute;
     left: 5px;
     bottom: 10px;
 } 
+
+#titolo{
+    font-size:40px;
+}
+
+#sottotitolo{
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    bottom: 30px;
+}
+
+#data-sottotitolo{
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    bottom: 50px;
+}
+
+.tim{
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    
+}
+.tim div{
+    font-size: 12px;
+}
+
+#speciale{
+    position: relative;
+    bottom: 40px;
+}
+.giallo{
+    background-color:yellow;
+}
+
+ul{
+    position: relative;
+    right: 25px;
+}
+.tabella{
+    position: relative;
+    top: 10px;
+}
+.riga-principale{
+    background-color: deepskyblue;
+    color: white;
+}
+.colonna1{
+    display: inline-block;
+    width: 26%;
+}
+.colonna2{
+    display: inline-block;
+    width: 26%;
+}
+.colonna3{
+    display: inline-block;
+    width: 47%;
+}
+.riga-azzurra{
+    background-color: lightblue;
+    vertical-align: unset;
+    
+    
+}
+
+.riga-azzurra .colonna1{
+   position: relative;
+   bottom: 27px;
+}
+.riga-azzurra .colonna2{
+    position: relative;
+    bottom: 27px;
+ }
+ .riga-bianca .colonna1{
+    position: relative;
+    bottom: 27px;
+ }
+ .riga-bianca .colonna2{
+    position: relative;
+    bottom: 27px;
+ }
+
